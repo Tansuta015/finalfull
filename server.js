@@ -19,8 +19,6 @@ var output = {
 }
 app.get('/api/json', function (req, res) {
     res.status(500).json(output);
-
-
 });
 //customer
 app.get('/api/customers/', db.getAllCustomers);
